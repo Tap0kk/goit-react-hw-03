@@ -1,0 +1,17 @@
+.wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wrapper > span {
+  color: var(--primary-color);
+}
+
+.wrapper > input {
+  padding: 8px 15px;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  color: var(--primary-color);
+  background-color: rgba(0, 0, 0, 0.274);
+}
